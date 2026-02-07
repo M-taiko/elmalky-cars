@@ -106,6 +106,8 @@ wp-config-local.php
 !CONTRIBUTING.md
 !LICENSE.md
 !docs/**/*.md
+!PERSONAL_DASHBOARD_GUIDE.md
+!IMPLEMENTATION_STATUS.md
 
 # Keep Important Files
 !.gitkeep
