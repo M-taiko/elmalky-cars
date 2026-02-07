@@ -1,0 +1,176 @@
+# WordPress Core
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/akismet/
+/wp-content/plugins/hello.php
+/wp-content/upgrade/
+/wp-content/cache/
+wp-config.php
+.htaccess
+
+# WordPress Database
+wp-content/db.php
+
+# WordPress Package Files
+*.tar.gz
+*.zip
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# PHP
+composer.lock
+vendor/
+
+# Logs
+error.log
+debug.log
+*.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# Temporary Files
+/tmp/
+/temp/
+*.tmp
+
+# Private/Config Files
+.htaccess
+.htaccess.bk
+.private/
+
+# WP-CLI
+.wp-cli/
+wp-cli.local.yml
+
+# Local Development
+local.php
+local-config.php
+wp-config-local.php
+
+# Database Dumps
+*.sql
+*.sql.gz
+*.sql.bak
+
+# Cache Files
+/wp-content/cache/
+/wp-content/backup/
+/wp-content/object-cache.php
+
+# WooCommerce
+/wp-content/plugins/woocommerce/vendor/
+
+# Development Documentation (keep)
+# !docs/
+# !README.md
+# !CONTRIBUTING.md
+
+# Documentation Files (Auto-generated)
+*.md
+!README.md
+!CONTRIBUTING.md
+!LICENSE.md
+!docs/**/*.md
+
+# Keep Important Files
+!.gitkeep
+!.npmrc
+
+# Private Information
+_keys/
+_credentials/
+secrets/
+
+# Build/Distribution
+/dist/
+/build/
+/out/
+
+# Testing
+/coverage/
+.nyc_output/
+
+# System Files
+*.pem
+*.key
+*.crt
+*.cert
+
+# WordPress Multisite
+/wp-content/blogs.dir/
+
+# Mail Log
+mail.log
+
+# PHP Storm
+.idea/
+*.iml
+
+# Windows
+desktop.ini
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# Misc
+.vagrant/
+Vagrantfile
+.ruby-version
+.ruby-gemset
+
+# Keep Plugin Files
+!wp-content/plugins/car-sales-crm-ultimate.php
+!/wp-content/plugins/car-sales-crm-ultimate/
+
+# Uploads (Optional - uncomment if you want to ignore uploads)
+# /wp-content/uploads/*
+# !/wp-content/uploads/.gitkeep
+
+# Client Files
+client_files/
+client-data/
+
+# Temp Uploads
+wp-content/uploads/tmp/

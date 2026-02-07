@@ -1,0 +1,76 @@
+# Auto Detect Text Files and Normalize Line Endings to LF
+* text=auto
+
+# PHP Files
+*.php text eol=lf
+*.phtml text eol=lf
+
+# Shell Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Windows Scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.com text eol=crlf
+
+# Text Files
+*.txt text eol=lf
+*.md text eol=lf
+*.markdown text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.jsx text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+
+# Git Config
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary Files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.pdf binary
+
+# WordPress
+wp-config.php text eol=lf
+wp-config-sample.php text eol=lf
+.htaccess text eol=lf
+
+# Composer
+composer.json text eol=lf
+composer.lock text eol=lf
+
+# Package Managers
+package.json text eol=lf
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+.npmrc text eol=lf
+.yarnrc text eol=lf
+
+# Ignore Diff for Binary Files
+*.png diff=exif
+*.jpg diff=exif
+*.jpeg diff=exif
